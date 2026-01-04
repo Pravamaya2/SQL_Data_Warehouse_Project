@@ -14,7 +14,7 @@ None
 This stored procedure doesnot accept any parameters or return any values.
 
 Usage example:
-Exec bronze,load_bronze
+Exec bronze.load_bronze
 ==============================================================================================
 */
 
