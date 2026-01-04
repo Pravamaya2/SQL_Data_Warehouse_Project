@@ -5,8 +5,10 @@ DDL Script: Create Bronze Tables
 
 Script Purpose:
 This script creates tables in the bronze schema, dropping existing tables if they already exist.
+If the database exists, it is dropped and created. Additionally, the scripts set up three schema within the database: 'bronze', 'silver' and 'gold'
 Run this script to re-define the DDL structure of bronze Tables
-
+Warning : Running this scripts will drop the entire 'Datawarehouse' database if it exists.
+All data in the database will be permanently deleted. Procees with caution and ensure you have proper backup before running this script.
 ==================================================================================
 */
 
